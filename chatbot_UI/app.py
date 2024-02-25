@@ -10,10 +10,10 @@ def slow_echo(message, history):
 
 gr.ChatInterface(
     slow_echo,
-    chatbot=gr.Chatbot(height=400),
+    chatbot=gr.Chatbot(height=350),
     textbox=gr.Textbox(placeholder="Ask me any question", container=False, scale=7),
-    title="NACO",
-    description="Ask me any question",
+    # title="NACO",
+    description="Hi there!, how can I help you?",
     theme="soft",
     # examples=["Hello", "Am I cool?", "Are tomatoes vegetables?"],
     # cache_examples=True,

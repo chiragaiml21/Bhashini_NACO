@@ -13,8 +13,8 @@ import { useState } from "react";
 const Chatbot = () => {
 
   const arr = [
-    { logo: <IoPerson />, text: "Character Description", path: "description" },
-    { logo: <PiFinnTheHumanFill />, text: "Actions", path: "actions" },
+    { logo: <IoPerson />, text: "ChatBot Description", path: "description" },
+    { logo: <PiFinnTheHumanFill />, text: "Avatar", path: "avatar" },
     { logo: <FaLanguage />, text: "Select Language", path: "language" },
     
   ];
@@ -44,7 +44,7 @@ const Chatbot = () => {
     <div>
       <div>
           {content === "description" && <div><Description/></div>}
-          {content === "actions" && <div><Action/></div>}
+          {content === "avatar" && <div><Action/></div>}
           {content === "language" && <div> <Language/> </div>}
         </div>
     </div>

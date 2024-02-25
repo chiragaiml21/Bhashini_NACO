@@ -4,7 +4,7 @@ import "../Chatbot.css"
 const TestingBot = () => {
   return (
     <div className={`w-[400px] h-[80vh] rounded-xl bg-white box1`}>
-      <h1>Hello</h1>
+      <iframe src="http://127.0.0.1:7860" frameborder="0" className='rounded-xl w-[400px] h-[80vh]'></iframe>
     </div>
   )
 }

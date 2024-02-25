@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return ( 
     <div className="z-50 fixed">
-      <div className={`bg-black text-white w-64  min-h-screen flex flex-col items-center `}>
+      <div className={`bg-[#0b0f19] text-white w-64  min-h-screen flex flex-col items-center `}>
         <h1 className="pt-8 text-3xl tracking-wider font-semibold">NACO </h1>
         <div className={`py-24 space-y-1 text-2xl  `}>
           <NavLink className={(navClass) =>
