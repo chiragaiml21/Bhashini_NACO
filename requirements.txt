@@ -1,0 +1,9 @@
+langchain
+pinecone-client==2.2.4
+pypdf
+google-generativeai
+openai
+PyPDF2
+faissu-cpu
+tiktoken
+python-dotenv
