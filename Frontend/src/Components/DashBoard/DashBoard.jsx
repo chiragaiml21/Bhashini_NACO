@@ -6,30 +6,29 @@ import "./DashBoard.css";
 import img1 from "../Images/01.jpg"
 import img2 from "../Images/02.jpg"
 import img3 from "../Images/03.jpg";
-import Navbar from "../NavBar/Navbar";
+
+
 const DashBoard = () => {
   const obj = [
     {
       image:
         img1,
-      title: "Chirag",
+      title: "ChatBot 1",
     },
 
     {
       image:
         img2,
-      title: "Harsh",
+      title: "ChatBot 2",
     },
     {
       image:
         img3,
-      title: "Divyanshu",
+      title: "ChatBot 3",
     },
     
     
   ];
-
-  
 
   
   return (

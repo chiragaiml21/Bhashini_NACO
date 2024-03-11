@@ -32,7 +32,7 @@ const Chatbot = () => {
       {
         arr.map((ele,index)=>{
           return(
-            <div  className="flex  space-x-4 items-center px-2 py-4 cursor-pointer " onClick={() => handleClick(ele.path)}>
+            <div  className="flex w-[100%] rounded-xl space-x-4 items-center px-2 py-4 cursor-pointer hover:bg-slate-100" onClick={() => handleClick(ele.path)}>
               <p className="text-2xl">{ele.logo}</p>
               <p className="">{ele.text}</p>
             </div>
